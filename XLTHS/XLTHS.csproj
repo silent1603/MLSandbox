@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<GenerateEvergineContent>True</GenerateEvergineContent>
+		<GenerateEvergineAssets>False</GenerateEvergineAssets>
+		<GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Evergine.Bindings.Imgui" Version="2023.4.4.966" />
+		<PackageReference Include="Evergine.Bindings.Imguizmo" Version="2023.4.4.1231" />
+		<PackageReference Include="Evergine.Bindings.Imnodes" Version="2023.4.4.1231" />
+		<PackageReference Include="Evergine.Bindings.Implot" Version="2023.4.4.1231" />
+		<PackageReference Include="Evergine.Common" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.Components" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.Framework" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.ImGui" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.LibraryLoader" Version="0.0.7" />
+		<PackageReference Include="Evergine.Mathematics" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.Platform" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.Bullet" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.Targets" Version="2023.9.28.511" />
+		<PackageReference Include="Evergine.CodeScenes" Version="2023.9.28.511" />
+		<PackageReference Include="Mediapipe.Net" Version="0.9.2" />
+		<PackageReference Include="Mediapipe.Net.Framework.Protobuf" Version="0.9.1" />
+		<PackageReference Include="Mediapipe.Net.Runtime.CPU" Version="0.9.1" />
+		<PackageReference Include="Mediapipe.Net.Runtime.GPU" Version="0.9.1" />
+		<PackageReference Include="Microsoft.ML" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.CpuMath" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.DataView" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.FastTree" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.ImageAnalytics" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.LightGbm" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.Mkl.Redist" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.OnnxConverter" Version="0.20.1" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.16.3" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.16.3" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.16.3" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime.Managed" Version="1.16.3" />
+		<PackageReference Include="Microsoft.ML.OnnxTransformer" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.TensorFlow" Version="2.0.1" />
+		<PackageReference Include="Microsoft.ML.TimeSeries" Version="2.0.1" />
+		<PackageReference Include="TensorFlow.Keras" Version="0.15.0" />
+		<PackageReference Include="TensorFlow.NET" Version="0.150.0" />
+	</ItemGroup>
+</Project>
